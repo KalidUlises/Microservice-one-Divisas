@@ -4,6 +4,7 @@ public class User {
 
 	private Integer usuario;
 	private String password;
+	//private String nombre;
 	
 	
 	public User(Integer usuario, String password) {
@@ -16,6 +17,8 @@ public class User {
 	public Integer getUsuario() {
 		return usuario;
 	}
+
+
 	public void setUsuario(Integer usuario) {
 		this.usuario = usuario;
 	}
